@@ -1,0 +1,29 @@
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+}
+
+body {
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

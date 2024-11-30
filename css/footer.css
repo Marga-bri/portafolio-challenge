@@ -1,0 +1,35 @@
+/*footer*/
+
+.footer {
+    width: 100vw;
+    background: #2a7ae4;
+    
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2a7ae4;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    
+    .footer__rodape {
+        font-size: 1.2rem;
+    }
+    
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    
+    .footer__rodape {
+        font: size 0.8rem;
+    }
+}
+
+
